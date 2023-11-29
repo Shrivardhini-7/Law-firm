@@ -4,7 +4,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Accordion from '@mui/material/Accordion';
 import Icon from '@mui/material/Icon';
 import { useState } from "react";
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
 
 let FAQSection = () => {
 
