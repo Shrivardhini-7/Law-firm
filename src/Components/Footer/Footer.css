@@ -1,0 +1,44 @@
+.section-9{
+    width:75%;
+    position: absolute;
+    left:13%;
+    height:300px;
+    top: 5200px;
+    background-color: var(--css-black);
+    color:var(--css-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:100px;
+}
+.logo-image{
+    width:17%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ .flex-one{
+ display:flex;
+ margin:50px 2rem 2rem 2rem;
+ justify-content: space-around;
+ 
+}
+.flex-two{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 2rem;
+    margin-left: 25%;
+    font-size: smaller;
+}
+.flex-one-contents{
+    display: flex;
+    font-size: 16px;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    font-weight: 500;
+}

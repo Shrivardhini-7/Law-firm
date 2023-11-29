@@ -1,0 +1,91 @@
+.section-5{
+    width: 75%;
+    position: absolute;
+    top:2800px;
+    height:550px;
+    left:13%;
+}
+.carousel{
+    width:83%;
+    background-color: var(--css-darkgray);
+    position: absolute;
+    left:9%;
+    
+}
+.review-cards-section{
+    
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.review-card{
+    height:310px;
+    width:100%;
+    border-radius: 12px;
+    border: 2px solid var(--css-lightgray);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.name{
+    margin-left: 1rem;
+    color: var(--css-white);
+    font-weight: 500;
+    font-size:20px;
+}
+.review{
+ 
+    color: var(--css-white);
+    padding: 0;
+    margin: 1rem;
+    padding: 0;
+    margin: 1rem 0 0 1rem;
+    font-size: 12px;
+    text-align: left;
+    opacity: 30%;
+
+}
+.position{
+    margin-left: 1rem;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 0.5rem;
+
+}
+img{
+    margin: 1rem 0 0 1rem !important;
+}
+.carousel-head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.carousel-heading{
+    color: var(--css-white);
+    font-weight: 600;
+    font-size: 45px;
+    width: 40%;
+    text-align: left;
+}
+.nav-left,.nav-right{
+    background-color: var(--css-white);
+    border: none;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+}
+.nav{
+    margin: 0 !important;
+}
+button.nav-right:hover{
+    background-color: var(--css-color);
+}
+button.nav-left:hover{
+    background-color: var(--css-color);
+}

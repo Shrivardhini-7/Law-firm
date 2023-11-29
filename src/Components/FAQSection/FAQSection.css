@@ -1,0 +1,50 @@
+.section-7{
+    width:75%;
+    position: absolute;
+    left:13%;
+    height:800px;
+    top: 3800px;
+    margin-top: 100px;
+}
+.faq-section{
+    width: 80%;
+    color: var(--css-white);
+    text-align:left;
+    left:10%;
+    position: absolute;
+    height:600px;
+    background-color: var(--css-darkgray);
+    top: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+.faq-subheading{
+    margin-top: 1rem;
+    opacity: 30%;
+}
+.header-section{
+    width:40%;
+}
+.questions-section{
+    width:50%;
+    margin-top: 50px;
+}
+.MuiPaper-root{
+    background-color: var(--css-darkgray) !important;
+    margin :0.5rem 0!important; 
+    border:none;
+    
+}
+.question{
+    color:var(--css-white);
+    font-size:22px;
+}
+.answer{
+    color:var(--css-white);
+    font-size:smaller;
+    opacity: 30%;
+}
+hr{
+    color: var(--css-lightgray);
+    margin:0 1rem;
+}

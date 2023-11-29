@@ -1,0 +1,36 @@
+.section-4{
+    width: 75%;
+    position: absolute;
+    top:1700px;
+    height:1100px;
+    left:13%;
+}
+.section-4-heading{
+ font-size: 45px;
+ /* font-weight: 500; */
+ color:var(--css-white);
+ 
+}
+.grid-section{
+    width:82%;
+    background-color: var(--css-darkgray);
+    position: absolute;
+    left:8%;
+    margin-top: 60px;
+}
+.card-text{
+    position: absolute;
+    top: 75%;
+    /* width: 100%; */
+    font-size: 20px;
+    color: var(--css-white);
+    font-weight: 200;
+    
+    width:100%;
+}
+.practice-card{
+    position:relative;
+}
+img{
+    margin:0 !important;
+}

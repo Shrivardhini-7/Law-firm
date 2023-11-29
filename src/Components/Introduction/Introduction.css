@@ -1,0 +1,122 @@
+.section-1{
+    width:75%;
+    background-color: var(--css-black);
+    color:white;
+    position: absolute;
+    left:13%;
+    height:650px;
+    top: 100px;
+}
+.description{
+    width:80%;
+    /* background-color: red; */
+    position: absolute;
+    left:10%;
+    top:20%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10%
+}
+.text{
+    width:50%;
+
+}
+.main-img{
+    width:40%
+}
+h3{
+    font-size: 45px !important;
+    text-align: left;
+}
+h2{
+    font-size: 45px;
+    text-align: left;
+}
+.intro-para{
+    color:var(--css-lightgray);
+    text-align: left;
+    margin-top: 1rem;
+    font-weight:600;
+    
+}
+.email{
+    position: relative;
+}
+.email-input{
+    position: absolute;
+    width: 80%;
+    left: 0;
+    background-color: var(--css-lightgray);
+    border: none;
+    height: 55px;
+    border-radius: 27px;
+    margin-top: 2rem;
+    font-size: smaller;
+    color: var(--css-white);
+}
+.mail-icon{
+    position: absolute;
+    left: 0px;
+    top: 32px;
+}
+.lets-talk-button{
+    border: none;
+    background-color: var(--css-color);
+    border-radius: 22px;
+    position: absolute;
+    height: 42px;
+    width: 25%;
+    margin-top: 2rem;
+    top: 6px;
+    left: 53%;
+    font-weight: 600;
+}
+.section-2{
+    position: absolute;
+    /* background-color: red; */
+    width:75%;
+    left:13%;
+    top:750px;
+    height:350px;
+}
+.content{
+    width:80%;
+    background-color: var(--css-darkgray);
+    position: absolute;
+    left:10%;
+    top:25%;
+    display: flex;
+    justify-content: space-between;
+}
+.vertical-division{
+    border-left: 2px solid var(--css-lightgray);
+    height:200px;
+    margin: 1rem 2rem 1rem 2rem;
+    
+}
+h5{
+    font-size: 45px;
+    color: var(--css-white);
+    width:50%;
+    text-align: left;
+    margin-top: 1rem;
+} 
+.intro-desc{
+    width:50%
+}
+h4{
+    font-size: 25px;
+    color: var(--css-white);
+    font-weight: 200;
+    text-align: left;
+    margin-top: 1rem;
+}
+.desc{
+    padding: 0 !important;
+    font-size: 18px !important;
+    color:var(--css-lightgray);
+    text-align: left;
+    margin-top: 1rem;
+    font-weight: 600;
+}

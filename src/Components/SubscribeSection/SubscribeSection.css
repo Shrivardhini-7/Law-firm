@@ -1,0 +1,37 @@
+.section-8{
+    width:67%;
+    position: absolute;
+    left:17%;
+    height:300px;
+    top: 4750px;
+    background-color: var(--css-lightgray);
+}
+.subscribe-section-heading{
+   color:var(--css-white);
+   font-weight:500;
+   font-size: 45px;
+   text-align: center;
+    margin: 5rem 0 2rem 0;
+}
+.input-name,.input-email{
+    color: var(--css-lightgray);
+    height: 40px;
+    width:23%;
+    border:none;
+    margin:0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.send-btn{
+    background-color: var(--css-color);
+    color: var(--css-black);
+    font-weight: 600;
+    width: 8%;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    height: 40px;
+
+}
+.input-name{
+    border-radius: 8px 0 0 8px;
+}

@@ -1,0 +1,42 @@
+.navbar{
+    background-color: var(--css-black);
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    height: 8%;
+    display:flex;
+    justify-content: space-between;
+}
+.contents{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.button{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--css-white);
+    background-color: var(--css-black);
+    text-align: center;
+    border: 1px solid var(--css-white);
+    display:flex;
+    align-items: center;
+    width: 17%;
+    justify-content: center;
+}
+.logo-image{
+   width:17%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+
+}
+img{
+    display:inline;
+    margin: auto;
+}
